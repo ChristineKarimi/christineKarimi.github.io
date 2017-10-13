@@ -26,6 +26,7 @@ ul{
     background-image: url(../images/h.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: black;
   }
 
   h1{
