@@ -1,23 +1,23 @@
 #Portfolio
 
-#### This my Portfolio that i've built using softwares such as Bootstrap.
+#### This my Portfolio that i've built using softwares such as Bootstrap to give a brief descriptio about myself.
 
 #### By Christine Karimi
 
 
 ## Description
 
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+This Portfolio gives an overview of myself in a nutshell. It briefly describes my academic life and why i chose programming.
 
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* Type your HTML code
+create a stylesheet file under the same folder named style.css
+use the style sheet to style your Portfolio
+link the HTML to the style sheet to ensure changes made on the sheet appear on the Portfolio
+make it as perfect as possible
 
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+
 
 ## Known Bugs
 
