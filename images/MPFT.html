@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>MPFT</title>
+    <link href="MPFT_files/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="MPFT_files/foundation.css">
+    <link rel="stylesheet" href="MPFT_files/bootstrap.css">
+    <link rel="stylesheet" href="MPFT_files/lib.css">
+    <link rel="stylesheet" href="MPFT_files/sweetalert.css">
+    <link rel="stylesheet" href="MPFT_files/styles.css">
+</head>
+
+<body onload="load()">
+    <div id="container">
+        <header>Front End Web Development
+        </header>
+        <div>
+            <div id="feed_btn">
+                <button class="button" id="open_feedback">Feedback</button>
+            </div>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+            <div id="feedback_modal">
+                <form id="feedback_form" name="feedback_form" enctype="text/plain" target="hidden_iframe" action="javascript: postContactToGoogle()" method="POST" onsubmit="">
+                    <label>
+                        <textarea class="hidden moringa_track" id="name" name="cname">Prep full-time</textarea>
+                        What would you like to share with us?
+                        <br>
+                        <textarea cols="70" rows="1" type="text" id="feed" name="fname"></textarea>
+                        <br> Email address:
+                        <br>
+                        <textarea cols="70" rows="1" id="email" type="text" name="lname"></textarea>
+                    </label>
+                    <br>
+                    <button class="btn button" id="close_feedback" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <nav>
+            <section>
+                <div class="panel-group" id="accordion">
+                    <!-- WEEK 1 SECTION -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed" aria-expanded="false">Week 1</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse" aria-expanded="false">
+                            <div>
+                                <ol class="panel-body">
+                                    <li><a class="load done" href="#01.html">1: Monday</a></li>
+                                    <ul>
+                                        <li>Git, HTML, and CSS</li>
+                                        <li>Introduction to the Command Line</li>
+                                        <li>Interacting with the Command Line</li>
+                                        <li>Practice: Command Line</li>
+                                        <li>Text Editor: Atom</li>
+                                        <li>Git and Github</li>
+                                        <li>HyperText Markup Language (HTML)</li>
+                                        <li>Indentation and Spacing</li>
+                                        <li>Practice: Indentation and Spacing</li>
+                                        <li>Creating a Web Page</li>
+                                        <li>Practice: Creating a Web Page</li>
+                                        <li>Block Elements</li>
+                                        <li>Practice: Block Elements</li>
+                                        <li>Inline Elements</li>
+                                        <li>Practice: Inline Elements</li>
+                                    </ul>
+                                    <li><a class="load done" href="#02.html">2: Tuesday</a></li>
+                                    <ul>
+                                        <li>READMEs</li>
+                                        <li>Practice: READMEs</li>
+                                        <li>Introduction to CSS</li>
+                                        <li>Debugging HTML and CSS</li>
+                                        <li>Practice: CSS</li>
+                                        <li>GitHub Pages</li>
+                                        <li>Practice: GitHub Pages</li>
+                                        <li>Git Branching</li>
+                                        <li>Git Merging</li>
+                                        <li>Practice: Branching and Merging</li>
+                                    </ul>
+                                    <li><a class="load done" href="#03.html">3: Wednesday</a></li>
+                                    <ul>
+                                        <li>Styling with Classes</li>
+                                        <li>Practice: Styling with Classes</li>
+                                        <li>Class vs. ID</li>
+                                        <li>Divs and Spans</li>
+                                        <li>Practice: Divs and Spans</li>
+                                        <li>Floats</li>
+                                        <li>Practice: Floats</li>
+                                        <li>Box Model</li>
+                                        <li>Practice: Box Model</li>
+                                        <li>Cascading and Inheritance</li>
+                                        <li>Practice: Cascading and Inheritance</li>
+                                        <li>Responsive Design and Media Queries</li>
+                                        <li>Practice: Responsive Design and Media Queries</li>
+                                    </ul>
+                                    <li><a class="load done" href="#04.html">4: Thursday</a></li>
+                                    <ul>
+                                        <li>Introduction to Bootstrap</li>
+                                        <li>Installing Bootstrap</li>
+                                        <li>Practice: Implementing Bootstrap</li>
+                                        <li>Bootstrap: The Basics</li>
+                                        <li>Practice: Bootstrap: The Basics</li>
+                                        <li>Bootstrap Grid System</li>
+                                        <li>Customizing Bootstrap Styles</li>
+                                        <li>Practice: Customizing Bootstrap</li>
+                                        <li>Navigating Bootstrap Documentation</li>
+                                        <li>Recreate a Website</li>
+                                    </ul>
+                                    <li><a class="load done" href="#05.html">5: Friday</a></li>
+                                    <ul>
+                                        <li>Independent Project</li>
+                                    </ul>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WEEK 2 SECTION -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="" aria-expanded="true">Week 2</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse in" aria-expanded="true" style="">
+                            <div>
+                                <ol class="panel-body">
+                                    <li><a class="load done" href="#06.html">1: Monday</a></li>
+                                    <ul>
+                                        <li>Introduction to JavaScript</li>
+                                        <li>Arithmetic</li>
+                                        <li>Variables</li>
+                                        <li>Strings</li>
+                                        <li>Operators</li>
+                                    </ul>
+                                    <li><a class="load done" href="#07.html">2: Tuesday</a></li>
+                                    <ul>
+                                        <li>Data types</li>
+                                        <li>Functions</li>
+                                        <li>Calculator</li>
+                                    </ul>
+                                    <li><a class="load done" href="#08.html">3: Wednesday</a></li>
+                                    <ul>
+                                        <li>Introduction to jQuery(javascript library)</li>
+                                        <li>jQuery: Simple Effects</li>
+                                        <li>jQuery: Add or Remove Classes</li>
+                                        <li>DOM Manipulation and traversal</li>
+                                        <li>Variable Scope</li>
+                                    </ul>
+                                    <li><a class="load done" href="#09.html">4: Thursday</a></li>
+                                    <ul>
+                                        <li>Forms</li>
+                                        <li>Debugging in Javascript</li>
+                                        <li>Calculator App</li>
+                                        <li>Branching</li>
+                                    </ul>
+                                    <li><a class="load done" href="#10.html">5: Friday</a></li>
+                                    <ul>
+                                        <li>Independent Project</li>
+                                    </ul>
+                                    <li><a class="load done" href="#weekend2.html">Weekend</a></li>
+                                    <ul>
+                                        <li>Practice on branching(Cotrol flows)</li>
+                                    </ul>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WEEK 3 SECTION -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed" aria-expanded="false">Week 3</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                            <div>
+                                <ol class="panel-body">
+                                    <li><a class="load done" href="#11.html">1. Monday</a></li>
+                                    <ul>
+                                        <li>Javascript Arrays</li>
+                                        <li>Array Methods</li>
+                                        <li>Looping in Arrays</li>
+                                        <li>Array Mapping</li>
+                                        <li>Code</li>
+                                    </ul>
+                                    <li><a class="load done" href="#12.html">2. Tuesday</a></li>
+                                    <ul>
+                                        <li>Looping with "for"</li>
+                                        <li>Behaviour Driven Development(BDD)</li>
+                                        <li>Leap Year Exercise</li>
+                                    </ul>
+                                    <li><a class="load done" href="#13.html">3: Wednesday</a></li>
+                                    <ul>
+                                        <li>Practice: Roman Numerals</li>
+                                        <li>Practice: Cryptosquare</li>
+                                    </ul>
+                                    <li><a class="load done" href="#14.html">4: Thursday</a></li>
+                                    <ul>
+                                        <li>Catch Up Day</li>
+                                    </ul>
+                                    <li><a class="load done" href="#15.html">5: Friday</a></li>
+                                    <ul>
+                                        <li>Independent Project</li>
+                                    </ul>
+                                    <li><a class="load done" href="#weekend3.html">Weekend</a></li>
+                                    <ul>
+                                        <li>Research on Javascript Objects</li>
+                                        <li>Research on Object Oriented programming</li>
+                                    </ul>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WEEK 4 SECTION -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed" aria-expanded="false">Week 4</a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                            <div>
+                                <ol class="panel-body">
+                                    <li><a class="load done" href="#16.html">1. Monday</a></li>
+                                    <ul>
+                                        <li>Literal Notation</li>
+                                        <li>Literal Notation vs Constructors</li>
+                                        <li>Constuctors</li>
+                                        <li>Adress Book</li>
+                                        <li>Places Visited</li>
+                                    </ul>
+                                    <li><a class="load done" href="#17.html">2. Tuesday</a></li>
+                                    <ul>
+                                        <li>To Dolist</li>
+                                        <li>Movie Tickets</li>
+                                    </ul>
+                                    <li><a class="load done" href="#18.html">3: Wednesday</a></li>
+                                    <ul>
+                                        <li>Objects within Objects</li>
+                                        <li>Address Book: Business Logic</li>
+                                        <li>Address Book: User Interface Logic</li>
+                                    </ul>
+                                    <li><a class="load done" href="#19.html">4: Thursday</a></li>
+                                    <ul>
+                                        <li>Bank Account</li>
+                                    </ul>
+                                    <li><a class="load done" href="#20.html">5: Friday</a></li>
+                                    <ul>
+                                        <li>Game of Thrones</li>
+                                    </ul>
+                                    <li><a class="load done" href="#weekend4.html">Weekend</a></li>
+                                    <ul>
+                                    </ul>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WEEK 5 SECTION -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed" aria-expanded="false">Week 5</a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse" aria-expanded="false">
+                            <div>
+                                <ol class="panel-body">
+                                    <li><a class="load done" href="#21.html">1: Tuesday</a></li>
+                                    <ul>
+                                        <li>Group Project Development</li>
+                                        <li>Git Work Flow</li>
+                                    </ul>
+                                    <!-- <li><a class="load done" href="#22.html">2: Thursday</a></li>
+            <ul>
+              <li>Check Points</li>
+            </ul>
+            <li><a class="load done" href="#23.html">3: Friday</a></li>
+            <ul>
+              <li>Group Project Presentations</li>
+            </ul> -->
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </nav>
+        <div id="content"><h1>Data Types</h1>
+<section>
+  <p>
+    You've already seen <strong>numbers</strong>, <strong>strings</strong>, <strong>booleans</strong>, and <strong>undefined</strong>. These are 4 of the 5 basic data types, or <strong>primitives</strong>, in JavaScript. The other is <strong>null</strong>, which represents nothingness. Don't worry about <em>null</em> for now - we'll learn more about it down the road.
+  </p>
+  <h2>Data Types</h2>
+  <h3>Number</h3>
+  <p>
+    Unsurprisingly, the number type represents numbers.
+  </p>
+  <ul>
+    <li><code>42</code></li>
+    <li><code>3.14</code></li>
+    <li><code>-10</code></li>
+    <li><code>0</code></li>
+    <li><code>NaN</code> (Stands for Not a Number, but is considered a number)</li>
+    <li><code>Infinity</code></li>
+    <li><code>-Infinity</code></li>
+    <li><code>var favouriteNumber = 42;</code></li>
+  </ul>
+  <p>
+    You can use certain methods on Numbers:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-number">3.14159</span>.toFixed(<span class="hljs-number">2</span>);
+      <span class="hljs-string">"3.14"</span>
+    </code>
+  </pre>
+  <h3>String</h3>
+  <p>
+    As you've seen, the string type represents text.
+  </p>
+  <ul>
+    <li><code>"hello, world!"</code></li>
+    <li><code>var greeting = "hello, world!";</code></li>
+  </ul>
+  <p>
+    You can use certain methods on strings:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-string">"hello"</span>.toUpperCase();
+      <span class="hljs-string">"HELLO"</span>
+      &gt; <span class="hljs-string">"hello"</span>.charAt(<span class="hljs-number">2</span>);
+      <span class="hljs-string">"l"</span>
+      &gt; <span class="hljs-string">"hello"</span>.toUpperCase().charAt(<span class="hljs-number">2</span>);
+      <span class="hljs-string">"L"</span>
+    </code>
+  </pre>
+  <h3>Boolean</h3>
+  <p>
+    Booleans can only hold 2 possible values - <code>true</code> or <code>false</code>.
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-number">5</span> &gt; <span class="hljs-number">3</span>;
+      <span class="hljs-literal">true</span>
+      &gt; <span class="hljs-number">5</span> &gt; <span class="hljs-number">10</span>;
+      <span class="hljs-literal">false</span>
+      &gt; <span class="hljs-string">"hello"</span>.charAt(<span class="hljs-number">2</span>) === <span class="hljs-string">"e"</span>;
+      <span class="hljs-literal">false</span>
+      &gt; <span class="hljs-keyword">var</span> enrolledAtEpicodus = <span class="hljs-literal">true</span>;
+    </code>
+  </pre>
+  <p>
+    You'll discover soon just how important booleans are to programming.
+  </p>
+  <h3>Undefined</h3>
+  <p>
+    The undefined data type has only one possible value - <code>undefined</code>. <br>
+
+    When declaring a variable without giving it a value (<code>var myNumber;</code>), JavaScript creates the variable without a value, hence <strong>undefined</strong>. Even when declaring a variable and assigning it a value at the same time (<code>var favoriteNumber = 42;</code>), JavaScript actually creates the variable initially without a value, temporarily giving it a value of <strong>undefined</strong>,
+ before then assigning it the value to the right of the equals sign. 
+This is kind of a subtle point, so don't worry too much about it at the 
+moment. <br>
+
+    Additionally, there are some functions and methods that do not return any value, in which case the return value is actually <em>undefined</em>. (You'll learn more about this when we learn how to write our own methods and functions.)
+  </p>
+  <h2>Data Type Detection</h2>
+  <p>
+    It's important to understand the difference between the number <code>5</code> and the string "5". To the computer, they are two entirely different things, as illustrated by this example:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> myNumber = <span class="hljs-number">5</span>;
+      &gt; <span class="hljs-keyword">var</span> myOtherNumber = <span class="hljs-number">10</span>;
+      &gt; <span class="hljs-keyword">var</span> myText = <span class="hljs-string">"5"</span>;
+      &gt; <span class="hljs-keyword">var</span> myOtherText = <span class="hljs-string">"10"</span>;
+      &gt; myNumber + myOtherNumber;
+      <span class="hljs-number">15</span>
+      &gt; myText + myOtherText;
+      <span class="hljs-string">"510"</span>
+    </code>
+  </pre>
+  <p>
+    When we added <code>10</code> to <code>5</code> we got <code>15</code>, but when we added <code>"10"</code> to <code>"5"</code> it concatenated the two strings together. <br>
+
+    Likewise, the boolean <code>true</code> is not the same as the string <code>"true"</code>. <br>
+
+    In the example above, somewhat confusingly, the <code>+</code> 
+operator works on both numbers and strings - just differently. Usually 
+methods will only work on a specific data type. For example, <code>48432.78.toExponential();</code> works just fine, but trying to do <code>"48432.78".toExponential();</code> results in an error because there is no <code>toExponential()</code> method that works on a string. Likewise, <code>"hello".charAt(2);</code> works, but <code>314159.charAt(2);</code> does not. <br>
+
+    We can check the data type of a variable or value as follows: <br>
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">typeof</span> <span class="hljs-number">5</span>;
+      <span class="hljs-string">"number"</span>
+      &gt; <span class="hljs-keyword">typeof</span> <span class="hljs-string">"5"</span>;
+      <span class="hljs-string">"string"</span>
+      &gt; <span class="hljs-keyword">typeof</span> <span class="hljs-literal">true</span>;
+      <span class="hljs-string">"boolean"</span>
+      &gt; <span class="hljs-keyword">typeof</span> <span class="hljs-string">"true"</span>;
+      <span class="hljs-string">"string"</span>
+      &gt; <span class="hljs-keyword">var</span> greeting = <span class="hljs-string">"hello world"</span>;
+      &gt; <span class="hljs-keyword">typeof</span> greeting;
+      <span class="hljs-string">"string"</span>
+    </code>
+  </pre>
+  <h2>Data Type Conversion</h2>
+  <p>
+    Often input from a web browser will come in as a string and we will need to convert it to a number before working with it. <br>
+
+    We can convert a string to a number by passing a string to the <strong>parseInt()</strong> function (more on functions soon):
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> inputtedAge = <span class="hljs-string">"45"</span>;
+      &gt; inputtedAge;
+      <span class="hljs-string">"45"</span>
+      &gt; <span class="hljs-keyword">typeof</span> inputtedAge;
+      <span class="hljs-string">"string"</span>
+      &gt; <span class="hljs-keyword">var</span> myAge = <span class="hljs-built_in">parseInt</span>(inputtedAge);
+      &gt; myAge;
+      <span class="hljs-number">45</span>
+      &gt; <span class="hljs-keyword">typeof</span> myAge;
+      <span class="hljs-string">"number"</span>
+    </code>
+  </pre>
+  <p>
+    Note that if you try to use parseInt() to convert a string not actually containing a number, the result is the "number" <code>NaN</code>.
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> name = <span class="hljs-string">"Andrea"</span>;
+      &gt; <span class="hljs-keyword">var</span> nonsense = <span class="hljs-built_in">parseInt</span>(name);
+      &gt; nonsense;
+      <span class="hljs-literal">NaN</span>
+    </code>
+  </pre>
+  <p>
+    If you need to go the other way around, you can convert a number to a string by calling the <code>toString()</code> method on the number:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> myNumber = <span class="hljs-number">42</span>;
+      &gt; myNumber;
+      <span class="hljs-number">42</span>
+      &gt; <span class="hljs-keyword">typeof</span> myNumber;
+      <span class="hljs-string">"number"</span>
+      &gt; <span class="hljs-keyword">var</span> convertedNumber = myNumber.toString();
+      &gt; convertedNumber;
+      <span class="hljs-string">"42"</span>
+      &gt; <span class="hljs-keyword">typeof</span> convertedNumber;
+      <span class="hljs-string">"string"</span>
+    </code>
+  </pre>
+</section>
+<section>
+  <h2>Practice: Data Types</h2>
+  <p>
+    Goal: In the Data Types lesson, we learned:
+  </p>
+  <ul>
+    <li>5 data types - number, string, boolean, undefined, null</li>
+    <li>Methods are generally specific to a data type</li>
+    <li>How to use <code>typeof</code> to check data type</li>
+    <li>How to use <code>parseInt()</code> and <code>.toString()</code> to convert between numbers and strings</li>
+  </ul>
+  <p>
+    Explore these different data types and their corresponding methods by completing the exercises listed below.
+  </p>
+  <h2>Warm Up</h2>
+  <ul>
+    <li>What data type is <code>NaN</code>? What about <code>Infinity</code>?</li>
+    <li>How do we tell what data type something is?</li>
+    <li>Name one way to convert something of one data type into another data type.</li>
+  </ul>
+  <h2>Code</h2>
+  <h3>Data Types Practice</h3>
+  <p>
+    Practice checking and converting data types by doing the following:
+  </p>
+  <ul>
+    <li>Set a variable equal to your favorite number and check the data type.</li>
+    <li>Then, create a new variable converting the previous variable to a string. Check the data type again.</li>
+    <li>Next, create a third variable, converting this string variable back to a number. Check the data type one more time.</li>
+    <li>Compare the first and third variables using === to confirm that they are equal.</li>
+    <li>Compare the first and second variables or second and third variables to confirm that they are NOT equal.</li>
+  </ul>
+</section>
+<section>
+  <h2>Functions</h2>
+  <p>
+    So far, none of the JavaScript we've learned has let us do anything 
+with a web page. Let's try something a little more interesting:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; alert(<span class="hljs-string">"Hello world!"</span>);
+    </code>
+  </pre>
+  <p>
+    Wow! When you press enter, the page pops open a dialog box that says "Hello world!". Exciting stuff! <br>
+
+    <code>alert()</code> is a <strong>function</strong>. A function is something that performs an action. Just like a method, a function can take an argument. The <code>alert()</code> function pops up a dialog box with the string that you pass in as an argument. <br>
+
+    Here's another JavaScript function that takes a string as an argument: <br>
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; prompt(<span class="hljs-string">"What is the air-speed velocity of an unladen swallow?"</span>);  <span class="hljs-comment">// I'm going to type "African or European?"</span>
+      <span class="hljs-string">"African or European?"</span>
+    </code>
+  </pre>
+  <p>
+    In JavaScript, everything after the // is a <strong>comment</strong>, and is ignored. Comments are a convenient way to leave notes in your code for yourself or other programmers.
+
+    This dialog box lets you type in a response, and then that response is <strong>returned</strong> from the <code>prompt()</code> function. One cool thing we can do here is a set a variable equal to the response, like this:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> favoriteColor = prompt(<span class="hljs-string">"What is your favorite color?"</span>); <span class="hljs-comment">// I'm going to type "green"</span>
+      <span class="hljs-literal">undefined</span>
+      &gt; favoriteColor;
+      <span class="hljs-string">"green"</span>
+    </code>
+  </pre>
+  <p>
+    Here we created a variable named favoriteColor and assigned it to hold the string inputted by the user. <br>
+
+    Just like we could chain methods to each other, we can also chain methods to a function:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; prompt(<span class="hljs-string">"Type something in lowercase:"</span>).toUpperCase(); <span class="hljs-comment">// I'm going to type "lowercase"</span>
+      <span class="hljs-string">"LOWERCASE"</span>
+    </code>
+  </pre>
+  <p>
+    Another built-in function that allows us to interact with the webpage user is the <code>confirm()</code> function. This too takes a string as an argument.
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; confirm(<span class="hljs-string">"Are you sure?"</span>); <span class="hljs-comment">// I'm going to press the OK button</span>
+      <span class="hljs-literal">true</span>
+    </code>
+  </pre>
+  <p>
+    Try it out for yourself in the JavaScript console. You should have seen that <code>confirm()</code> returns one of two values: <code>true</code> or <code>false</code>. Notice that there are no quotes around these values. That is because these are <strong>booleans</strong>, not strings. They simply represent being true or false. You saw them before when you worked with comparison operators.
+
+    And on that note, you might have noticed that <code>alert()</code> returned <code>undefined</code>, also without quotes. <code>undefined</code>
+ simply represents that nothing has been returned from the function, or,
+ as you saw earlier, that a variable hasn't been assigned a value. <br>
+
+    It is good to be conscious of what arguments a function takes, and 
+what data type it returns. Here is a table showing that information for 
+the three built-in functions introduced in this lesson:
+  </p>
+  <img src="MPFT_files/function-arguments-returns.png" alt="function argument returns">
+  <p>
+    The <code>alert()</code> function does not return anything useful, 
+which is fine because you would just use it to display some information 
+to the user - it is a way of outputting information, not of collecting 
+information. On the other hand, you would want to somehow collect the 
+user's response to the <em>prompt()</em> or <em>confirm()</em> functions - likely by assigning the returned value to a variable as demonstrated above with <code>var favoriteColor = prompt("What is your favorite color?");</code>. That way you can actually do something with the inputted information rather than just ignoring it.
+  </p>
+</section>
+<section>
+  <h2>Practice: Functions</h2>
+  <p>
+    <strong>Goal:</strong> In the Functions video, we learned:
+  </p>
+  <ul>
+    <li>Functions perform actions in the browser</li>
+    <li>Examples of JavaScript functions are <code>alert()</code>, <code>prompt()</code>, and <code>confirm()</code></li>
+    <li>Methods can be chained onto functions</li>
+  </ul>
+  <p>
+    Functions are an incredibly important part of programming, and 
+you'll be using them constantly. Begin to get the hang of calling some 
+common JavaScript functions by completing the practice exercises listed 
+below.
+  </p>
+  <h2>Warm Up</h2>
+  <ul>
+    <li>How can we comment out code?</li>
+    <li>What happens when we run code that is commented out?</li>
+    <li>What are the differences between the <code>alert()</code>, <code>confirm()</code>, and <code>prompt()</code> functions in JavaScript?</li>
+  </ul>
+  <h2>Code</h2>
+  <h3>Functions Practice</h3>
+  <p>
+    Practice using JavaScript functions:
+  </p>
+  <ul>
+    <li>Use <code>alert()</code> to pop up a dialog box with a warning for the user.</li>
+    <li>Use <code>confirm()</code> to ask a yes or no question.</li>
+    <li>Use <code>prompt()</code> to ask a question.</li>
+    <li>Save the response to the <code>prompt()</code> as a variable. 
+All responses entered by a user in to a prompt input filed are saved as 
+strings (even if the user enters 10, the value is saved as the string, 
+"10"). Run at least 3 string methods of your choice on the string 
+variable that you create from the prompt.</li>
+    <li>Ask a new question and save the response as a new variable and run 3 different string methods on it.</li>
+  </ul>
+</section>
+<section>
+  <h2>Parsing Integers</h2>
+  <p>
+    The most common error beginning JavaScript students experience is 
+attempting to call functions meant for numbers on strings. This happens 
+especially frequently because <strong>all values returned from a prompt are saved as strings</strong>. Even if the user enters a number into a prompt without quotation marks! Unfortunately, this is simply how JavaScript works.
+
+    If we wanted to collect a value from a user with <code>prompt()</code>, and perform arithmetic with this value, we would need to convert it into a number with JavaScript's <code>parseInt()</code> function. If not, we would receive some very unexpected output.
+  </p>
+  <h2>Common Data Type Errors</h2>
+  <p>
+    Here's what can happen if you <em>don't</em> parse integers correctly. In the example below, we use <code>prompt()</code> to ask the user how old they are. The user enters 35. We then attempt to perform some arithmetic on <code>age</code>:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> age = prompt(<span class="hljs-string">"Enter your age: "</span>);
+      &gt; age + age;
+      <span class="hljs-number">3535</span>
+    </code>
+  </pre>
+  <p>
+    Remember, <strong>all values returned from a prompt are strings!</strong> So, even though the user entered a number, <code>age</code> is actually equal to the string <code>"35"</code>. Since the <code>+</code> operator can be used to concatenate strings age <code>+</code> age actually returns <code>"3535"</code>, instead of <code>70</code>.
+  </p>
+  <h2>Using parseInt() to Avoid Data Type Errors</h2>
+  <p>
+    To make a string a number, we parse it using the <code>parseInt()</code> function like this:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> number = <span class="hljs-built_in">parseInt</span>(<span class="hljs-string">"5"</span>);
+      &gt; number;
+      <span class="hljs-number">5</span>
+    </code>
+  </pre>
+  <p>
+    So, to change our age from the example above into an integer, we do the following:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> inputtedAge = prompt(<span class="hljs-string">"Enter your age: "</span>);
+      &gt; <span class="hljs-keyword">var</span> age = <span class="hljs-built_in">parseInt</span>(inputtedAge);
+      &gt; age + age;
+      <span class="hljs-number">70</span>
+    </code>
+  </pre>
+  <p>
+    Alternatively, the code does the exact same thing on a single line. Here we immediately pass the string returned by the <code>.prompt()</code> function as the argument to the <code>.parseInt()</code> function:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> age = <span class="hljs-built_in">parseInt</span>(prompt(<span class="hljs-string">"Enter your age: "</span>));
+      &gt; age + age;
+      <span class="hljs-number">70</span>
+    </code>
+  </pre>
+  <h2>Additional Information</h2>
+  <p>
+    Note: The <em>Int</em> part of <code>.parseInt()</code> is short for
+ integer, which means it's a whole number. If we wanted to convert 
+something into a number with a decimal, we'd use <code>.parseFloat()</code>:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> pi = <span class="hljs-string">"3.14"</span>;
+      &gt; <span class="hljs-built_in">parseFloat</span>(pi);
+      <span class="hljs-number">3.14</span>
+    </code>
+  </pre>
+  <p>
+    <strong>Floating point</strong> numbers are simply numbers with decimals. If you're parsing a whole number, use <code>parseInt()</code>, if you're parsing a number containing a decimal point, use <code>parseFloat()</code>.
+  </p>
+</section>
+<section>
+  <h2>Functions</h2>
+  <p>
+    In the previous lesson we saw how to use a few built-in JavaScript functions. Now let's write some custom functions.
+
+    We're going to write a very simple function to start. We'll give it the name <em>sayHi</em>.
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> sayHi = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ alert(<span class="hljs-string">'Hello from Moringa School!'</span>); };
+      <span class="hljs-literal">undefined</span>
+      &gt; sayHi();
+    </code>
+  </pre>
+  <p>
+    Every time we run the <code>sayHi()</code> function it executes all JavaScript code between the opening and closing braces - <code>{</code> and <code>}</code>. In this case it simply pops up a dialog box with the text <em>Hello from Moringa School!</em>. This isn't terribly useful, so let's write a slightly more interesting function, which we'll call <code>saySomething</code>:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> saySomething = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">whatToSay</span>) </span>{ alert(whatToSay); };
+      <span class="hljs-literal">undefined</span>
+      &gt; saySomething(<span class="hljs-string">"hello"</span>);
+    </code>
+  </pre>
+  <p>
+    As you know, we call <code>"hello!"</code> an <strong>argument</strong> to the function <code>saySomething()</code>. In the <code>saySomething()</code> function, that argument is assigned to the variable whatToSay - we call that variable a <strong>parameter</strong>. If you're confused about the difference between arguments and parameters, just remember that <em>the argument is the information you pass in, and the parameter is the variable that receives the argument.</em> In this case, <code>"hello!"</code> is the argument, and <code>whatToSay</code>
+ is the parameter. The parameter can then be used just like any other 
+variable. If this is unclear, reread it and play around with writing 
+your own functions. Be sure you understand how to write a function that 
+uses an argument passed in.
+
+    Okay, on to another, slightly more complex function:
+  </p>
+  <pre>    <code class="javascript hljs">
+      &gt; <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{ <span class="hljs-keyword">return</span> number1 + number2; };
+      <span class="hljs-literal">undefined</span>
+      &gt; add(<span class="hljs-number">3</span>, <span class="hljs-number">5</span>);
+      <span class="hljs-number">8</span>
+    </code>
+  </pre>
+  <p>
+    The <code>return</code> keyword tells JavaScript to give us the result from that line of code. Without a <code>return</code>, JavaScript will return <code>undefined</code> from the function, which is JavaScript's way of saying something does not have a value.
+
+    Let's step through exactly what happens if we call <code>add(3, 5)</code>:
+  </p>
+  <ol>
+    <li>We call the <code>add</code> function with the arguments <code>(3, 5)</code>.</li>
+    <li>The <code>add</code> function is run. The parameter <code>number1</code> is set equal to <code>3</code>, and the parameter <code>number2</code> is set equal to <code>5</code>.</li>
+    <li><code>3 + 5</code> is run.</li>
+    <li>The result of <code>3 + 5</code> is returned.</li>
+    <li>The <code>add</code> function ends.</li>
+  </ol>
+  <p>
+    Notice our variables names: <code>number1</code> and <code>number2</code>. We could have called them <code>n1</code> and <code>n2</code>, and it would have taken less typing. But the name <code>number1</code> very clearly expresses what the variable is for, whereas <code>n1</code>
+ will require another programmer (or your future self, when you come 
+back to your code in a few months and don't remember exactly how it 
+works) to figure it out from context. In this example, it would be 
+pretty obvious what <code>n1</code> is for. But if you practice choosing
+ descriptive names now and resisting the temptation to abbreviate, you 
+will be in the habit of doing it when you're writing more complex code 
+where it matters more.
+  </p>
+</section>
+<section>
+  <h2>JSFiddle</h2>
+  <p>
+    In the writing functions lesson we wrote all of our functions in the
+ JavaScript console. This works for very simple functions that can be 
+written on a single line, but it quickly becomes unwieldy as we want to 
+write longer functions.
+
+    There are a few solutions. You can write your functions in Atom and 
+then copy &amp; paste into the JavaScript console. Or you can try out <a href="http://jsfiddle.net/" target="_blank">JSFiddle</a>,
+ a useful tool for experimenting with JavaScript. With JSFIddle, you can
+ write code in the JavaScript box and then execute it by clicking the <em>Run</em> button on the menu bar at the top of the JSFiddle page.
+  </p>
+  <img src="MPFT_files/jsfiddle-screenshot.png" alt="JS fiddle screenshot">
+  <p>
+    Type this out in the JavaScript box at <a href="http://jsfiddle.net/" target="_blank">JSFiddle</a>.
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> saySomething = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">whatToSay</span>) </span>{
+        alert(whatToSay);
+      };
+
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+        <span class="hljs-keyword">return</span> number1 + number2;
+      };
+    </code>
+  </pre>
+  <p>
+    Writing out your functions on multiple lines is clearer even with 
+these simple functions; it will be essential when you begin writing more
+ complex functions.
+
+    Hit the <code>Run</code> button and... nothing happens. This is 
+because we have simply defined two functions and made them available for
+ future use. We have not yet <code>called</code> the functions, so the code inside of them has not yet been executed. Now add this line after the other lines:
+  </p>
+  <pre>    <code class="javascript hljs">
+      saySomething(<span class="hljs-string">"hi"</span>);
+    </code>
+  </pre>
+  <p>
+    Hit the <code>Run</code> button again and you should see an alert pop up. <br>
+
+    Now add another line:
+  </p>
+  <pre>    <code class="javascript hljs">
+      add(<span class="hljs-number">3</span>, <span class="hljs-number">5</span>);
+    </code>
+  </pre>
+  <p>
+    Hit <code>Run</code> and you should still see your alert popup, but 
+the new line you added doesn't appear to do anything. This is because 
+our add() method <strong>returns</strong> the result, but we don't do 
+anything with that return value. When we were running this code directly
+ in the JavaScript console, the console automatically displays any 
+return value. But in "real life" programming if you want to display 
+something, you have to tell the computer to do that. We have a variety 
+of options available to us. We could, for instance, assign the return 
+value to a variable and then display it by calling the built-in 
+JavaScript <em>alert()</em> function.
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> result = add(<span class="hljs-number">3</span>, <span class="hljs-number">5</span>);
+      alert(result);
+    </code>
+  </pre>
+  <p>
+    Now when we hit Run we should get an alert with our result, 8. If 
+you aren't seeing the alert, make sure that you didn't delete your <code>add()</code> function definition code.
+
+    Let's update our little program to make use of both functions:
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> saySomething = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">whatToSay</span>) </span>{
+        alert(whatToSay);
+      };
+
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+        <span class="hljs-keyword">return</span> number1 + number2;
+      };
+
+      <span class="hljs-keyword">var</span> result = add(<span class="hljs-number">3</span>, <span class="hljs-number">5</span>);
+      <span class="hljs-keyword">var</span> outputText = <span class="hljs-string">"The sum is "</span> + result + <span class="hljs-string">"."</span>;
+      saySomething(outputText);
+    </code>
+  </pre>
+  <p>
+    The <code>var result = add(3, 5);</code> line calls the <code>add()</code> function, passing it 2 arguments - the number 3 and the number 5. Our add() function at this point assigns the first argument (<code>3</code>) to the parameter <code>number1</code> and the second argument (<code>5</code>) to the parameter <code>number2</code>. The <code>add()</code> function then returns the number <code>8</code> (in this case), which our code assigns to the variable <code>result</code>. Hence the <code>result</code> variable is now the number <code>8</code>. <br>
+
+    The next line - <code>var outputText = "The sum is " + result + ".";</code> - concatenates three things together into a new string, which it then assigns to a new variable <code>outputText</code>. Note that result above is not in quotes. If you wrote <code>var outputText = "The sum is " + "result" + ".";</code>
+ then outputText would be the string The sum is result. But because we 
+did not put result in quotes, the computer understands the result 
+variable's value (<code>8</code>) should be substituted here. Hence the <code>outputText</code> variable is assigned the string <code>"The sum is 8."</code>. <br>
+
+    The last line - <code>saySomething(outputText);</code> - calls our <code>saySomething()</code> function, passing it the value that the variable <code>outputText</code> is standing in for - the string <code>"The sum is 8."</code>. Our <code>saySomething()</code> function assigns that string passed in to the variable <code>whatToSay</code>. It then calls the built-in JavaScript function <code>alert()</code> in order to pop up a dialog box with that string. <br>
+
+    If desired, you could refactor those last three lines into one line:
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> saySomething = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">whatToSay</span>) </span>{
+        alert(whatToSay);
+      };
+
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+        <span class="hljs-keyword">return</span> number1 + number2;
+      };
+
+      saySomething(<span class="hljs-string">"The sum is "</span> + add(<span class="hljs-number">3</span>,<span class="hljs-number">5</span>) + <span class="hljs-string">"."</span>);
+    </code>
+  </pre>
+  <p>
+    That refactored line calls the <code>saySomething()</code> function and passes it a string, which is concatenated together from 3 parts. The first part is just the string <code>"The sum is "</code> and the last part is just the string <code>"."</code>. The second part is the number <code>8</code> because that is the return value of the <code>add()</code> function when passed the arguments <code>3</code> and <code>5</code>. Hence the concatenated string: <code>"The sum is 8."</code>
+  </p>
+</section>
+<section>
+  <h2>Practice: Writing Functions</h2>
+  <p>
+    <strong>Goal:</strong> In the previous lessons, we learned:
+  </p>
+  <ul>
+    <li>Arguments to functions can be assigned to variables called parameters</li>
+    <li>The <code>return</code> keyword tells JavaScript to return the result from the line of code</li>
+    <li>Don't abbreviate variable names because it can get confusing after time has passed</li>
+  </ul>
+  <p>
+    Begin familiarizing yourself with writing custom functions in JSFiddle by completing the exercises detailed below.
+  </p>
+  <h2>Warm Up</h2>
+  <ul>
+    <li>How do we call a function?</li>
+    <li>What is a parameter, and how do we provide one to a function?</li>
+    <li>When do we need to parse integers?</li>
+    <li>What is a return value? How do we tell our functions what value to return?</li>
+    <li>What method is responsible for parsing integers?</li>
+  </ul>
+  <h2>Code</h2>
+  <h3>Writing Custom Functions</h3>
+  <p>
+    Write custom function for each of the following prompts. Then, call 
+the function providing the necessary parameters to see if your function 
+successfully returns the correct value. And don't forget to parse 
+integers when necessary!
+  </p>
+  <ul>
+    <li>Take somebody's name and say a greeting to them;</li>
+    <li>Write a function to subtract two numbers;</li>
+    <li>Now one to multiply two numbers. Then create a new function called <code>threeTimes</code> to multiply three numbers together.</li>
+    <li>Now write one to divide two numbers. Then write a new function called <code>remainder</code> to find the remainder of two numbers.</li>
+    <li>Prompt the user to enter their age, another prompt to enter 
+their name and another prompt to enter their favorite food. Pass these 
+as arguments to a function that returns a sentence combining all of this
+ information. Then display the returned string with an alert.</li>
+  </ul>
+</section>
+<section>
+  <h2>Business and User Interface Logic</h2>
+  <p>
+    Well-organized code is easier to debug, it appears more 
+professional, and is easier to revisit later. Writing organized code is a
+ highly-valued skill in the programming field. When working on a team, 
+you'll often collaborate with other developers. Clean code is easier for
+ others to understand and contribute to. Before we begin writing more 
+complex JavaScript, let's make sure we understand how to organize our 
+code using best, most professional practices from the very beginning. <br>
+
+    One of the most important organizational rules to follow is keeping 
+what is known as your user interface and business logic separate. We 
+haven't written any user interface logic <em>yet</em>, but we will in 
+upcoming lessons. In this lesson we'll explore what user interface and 
+business logics are, and what each handles.
+  </p>
+  <h3>User Interface and Business Logics</h3>
+  <p>
+    Consider a basic calculator application. Its code falls into two 
+categories: Code that performs calculations, or code responsible for 
+interacting with the user. <br>
+
+    The code that handles arithmetic is the <strong>back-end</strong>, or <strong>business logic</strong>. It's the 'inner workings' of the application that performs calculations and returns a value. It's what takes the numbers <code>4</code> and <code>5</code>, adds them together, and arrives at <code>9</code>. The functions we've explored so far are all back-end logic. <br>
+
+    The code that handles interacting with user is the <strong>front-end</strong> or <strong>user interface</strong>
+ logic. It retrieves information from the user and provides it to the 
+business logic to calculate. While buttons on a calculator may be <em>labeled</em> with numbers, they're just visual buttons. User interface logic is what translates clicking on this area of the page:
+  </p>
+  <img src="MPFT_files/button-on-calculator.png" alt="calculator image">
+  <p>
+    ... into the number <code>4</code>. After all, we cannot perform addition on <em>buttons</em>, but you can perform addition on <em>numbers</em>. The user interface logic registers that the user has pushed the button labelled "4". It then provides the number <code>4</code> to the back-end logic where we may perform calculations with it.
+  </p>
+  <p>
+    Let's say we also press the buttons labelled "+" and "5". The user 
+interface logic also translates these interactions into the number <code>5</code> and recognizes it will need a method for addition. The back-end logic then adds the numbers <code>4</code> and <code>5</code> together, and returns <code>9</code>. The front-end/user interface logic can then display this result to the user:
+  </p>
+  <img src="MPFT_files/result-displayed-from-calculator.png" alt="calculator image with result">
+  <p>
+    User interface/front-end logic handles interacting with the user; 
+including displaying or gathering information. The business/back-end 
+logic handles calculating or manipulation information 'behind the 
+scenes'.
+  </p>
+  <h3>Separation of Logic</h3>
+  <p>
+    Remember, we want to write clean, well-organized code. <strong>Because user interface and business logics have separate purposes, their code should always be separate</strong>.
+ So far, we've only written business logic, so we don't have much to 
+worry about. But keep this rule in mind as we begin to explore user 
+interface logic with jQuery in the coming lessons. <br>
+
+    Also, it's okay if everything we discussed isn't entirely clear 
+right now. Just understand the basic differences between these two 
+logics, and know they should be separate. Throughout the week we will 
+see what this actually looks like in practice. By keeping this basic 
+information in mind before we write more complex JavaScript, you'll 
+learn the most professional practices from the very beginning!
+    <br>
+    You may checkout <a href="http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend" target="_blank">this blog by treehouse</a> for more information on frontend vs backend in the context of web development.
+  </p>
+</section>
+<section>
+  <h2>Calculator: Business Logic</h2>
+  <p>
+    Now that we can write custom JavaScript functions, let's create a simple calculator application! We'll begin with the <strong>back-end</strong>, or <strong>business logic</strong>,
+ and focus first on creating the ability to add numbers together. We'll 
+later include subtraction, multiplication and division, and add the <strong>user interface</strong>, or <strong>front-end</strong> logic. <br>
+
+    Because we've not yet learned about user interface/front-end logic, 
+the difference between front-end logic and back-end logic (or business 
+and user interface logics) might not feel very clear. This is okay! For 
+now, simply know that what we're creating here is business, or back-end 
+logic because it handles the core functionality and computations of the 
+application. Later on we'll learn about jQuery and creating user 
+interfaces, and we'll revisit the differences between the two types of 
+logic. <br>
+
+    Let's write the whole thing in JSFiddle first, then we'll transfer it into our own project.
+  </p>
+  <h3>Defining an Addition Function</h3>
+  <p>
+    We've already written an <code>add()</code> function, so let's use that as a jumping off point. Clear out your <em>JSFiddle</em> JavaScript box and put in just your custom <em>add()</em> function:
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+      <span class="hljs-keyword">return</span> number1 + number2;
+    };
+    </code>
+  </pre>
+  <p>
+    Add in a line at the bottom of your <em>JSFiddle</em> script, below the function definition. This line will call our <code>add()</code> function, passing it two arguments. The return value from that function is immediately passed to JavaScript's built-in <code>alert()</code>
+ function. When the script is run, it should pop up a dialog box with 
+the value that the add function returns when passed those two arguments.
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+        <span class="hljs-keyword">return</span> number1 + number2;
+      };
+
+      alert(add(<span class="hljs-number">10</span>,<span class="hljs-number">5</span>));
+    </code>
+  </pre>
+  <h3>Gathering User Input</h3>
+  <p>
+    Now we have a simple (addition-only) calculator, but it isn't very 
+useful because you have to go in and modify the code every time you want
+ to do a new calculation. Let's add in the ability to collect input from
+ the user.
+
+    Remember that we can collect input through the built-in <code>prompt()</code> function, which takes a string as an argument and returns a string containing the user's input.
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+        <span class="hljs-keyword">return</span> number1 + number2;
+      };
+
+      <span class="hljs-keyword">var</span> number1 = prompt(<span class="hljs-string">"Enter a number:"</span>);
+
+      alert(number1);
+    </code>
+  </pre>
+  <p>
+    Not very exciting. All we did was echo back to the user what they 
+entered. But let's ask for two inputs and then use them as arguments to 
+our function.
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+        <span class="hljs-keyword">return</span> number1 + number2;
+      };
+
+      <span class="hljs-keyword">var</span> number1 = prompt(<span class="hljs-string">"Enter a number:"</span>);
+      <span class="hljs-keyword">var</span> number2 = prompt(<span class="hljs-string">"Enter another number:"</span>);
+
+      alert(add(number1, number2));
+    </code>
+  </pre>
+  <h3>Parsing Integers</h3>
+  <p>
+    Oops. We have the problem we previously encountered where the <code>prompt()</code> function returns strings, so the + operator we use inside of our <code>add()</code> function concatenates the two strings together rather than doing what we want. Because our <code>add()</code> function expects numbers as arguments rather than strings, we must convert the inputs into numbers before calling our <code>add()</code> function.
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+        <span class="hljs-keyword">return</span> number1 + number2;
+      };
+
+      <span class="hljs-keyword">var</span> number1 = <span class="hljs-built_in">parseInt</span>(prompt(<span class="hljs-string">"Enter a number:"</span>));
+      <span class="hljs-keyword">var</span> number2 = <span class="hljs-built_in">parseInt</span>(prompt(<span class="hljs-string">"Enter another number:"</span>));
+
+      alert(add(number1, number2);
+    </code>
+  </pre>
+  <p>
+    Now we're getting somewhere! In the next exercise, you'll add in 
+support for subtraction, multiplication and division, but first let's 
+move this code into a project so that we can save it and build on it 
+without having to use JSFiddle. <strong>Do not exit JSFiddle yet.</strong> In the next lesson we'll migrate the code we've created here in JSFiddle into a new project directory in Atom.
+  </p>
+</section>
+<section>
+  <h2>Practice: Calculator Business Logic</h2>
+  <p>
+    <strong>Goal:</strong>Continue to practice writing JavaScript 
+functions by beginning the business logic for a calculator app. Later, 
+we'll add user interface logic too, and familiarize ourselves with the 
+differences between code for each, and how to keep them separated and 
+organized.
+  </p>
+  <h2>Warm Up</h2>
+  <ul>
+    <li>What is the difference between business and user interface logic?</li>
+    <li>What's another word for business logic? What about user interface logic?</li>
+    <li>How do you provide a function multiple arguments?</li>
+  </ul>
+  <h2>Code</h2>
+  <h3>Calculator</h3>
+  <p>
+    Follow along with the previous lesson to begin building a calculator
+ app. Once you've written the code detailed in that lesson, create a 
+project and migrate your code from JSFiddle into Atom by doing the 
+following:
+  </p>
+  <ul>
+    <li>Create a calculator project folder on your computer.</li>
+    <li>Initialize a git repository in your newly created project folder.</li>
+    <li>Create js and css folders in your project folder.</li>
+    <li>Create an empty scripts.js file in your project's js subdirectory.</li>
+    <li>Copy the code from your JSFiddle into your scripts.js file to save it.</li>
+    <li>Create an HTML file in your project directory and include in it a
+ link to your scripts file: &lt;script 
+src="js/scripts.js"&gt;&lt;/script&gt; (see below for example html file)</li>
+    <li>Add a README.md file.</li>
+    <li>Add everything to your local git repository and commit the changes.</li>
+    <li>Create a calculator repository on GitHub and push your project to GitHub.</li>
+  </ul>
+  <p>
+    Example <em>HTML File</em>
+  </p>
+  <pre>    <code class="html hljs xml">
+      
+      <span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Calculator<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Calculator<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"js/scripts.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+    </code>
+  </pre>
+  <p>
+    Example <em>javascript file</em>
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> add = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">number1, number2</span>) </span>{
+        <span class="hljs-keyword">return</span> number1 + number2;
+      };
+
+      <span class="hljs-keyword">var</span> number1 = <span class="hljs-built_in">parseInt</span>(prompt(<span class="hljs-string">"Enter a number:"</span>));
+      <span class="hljs-keyword">var</span> number2 = <span class="hljs-built_in">parseInt</span>(prompt(<span class="hljs-string">"Enter another number:"</span>));
+      <span class="hljs-keyword">var</span> result = add(number1, number2);
+      alert(result);
+    </code>
+  </pre>
+  <p>
+    If you open your HTML file in the web browser, it should run your 
+code just like it did on JSFiddle; popping up prompt boxes for input and
+ then an alert with the calculated result. If this isn't working, check 
+that you correctly link to your scripts file and that your scripts file 
+includes both the <code>add()</code> function and code that actually 
+calls that function. If something on your page isn't working right, an 
+excellent initial troubleshooting step is to check the JavaScript 
+console to see if there are any helpful error messages that might point 
+you in the right direction. <br>
+
+    Next, create functions to <em>subtract</em>, <em>multiply</em>, and <em>divide</em>. Verify that all four work by changing the line near the bottom of the <em>scripts.js</em> (currently reads <code>var result = add(number1, number2);</code>)
+ to call different functions. For now you must manually change that line
+ to choose between operations. In upcoming lessons we'll build a user 
+interface for our calculator so that the user can choose between 
+addition, subtraction, multiplication and division. <strong>Do not build out the user interface yet. For now just focus on the business logic</strong>.
+  </p>
+  <h3>Additional Custom Functions Practice</h3>
+  <p>
+    (You can do these in JSFiddle)
+  </p>
+  <ul>
+    <li>Write a function that calculates BMI using two arguments. Then 
+write another function that prompts the user for their height and 
+weight, uses the BMI function and alerts the user of their BMI.</li>
+    <li>Write a function that converts temperature between celsius and fahrenheit.</li>
+    <li>Write functions to be used by a cooking app that convert between
+ units. For example, a function that converts gallons to liters. Create a
+ project for this like you did for the calculator, so that you can 
+return and build a front-end for this later.</li>
+  </ul>
+  <h3>Further Exploration</h3>
+  <p>
+    <em>If you finish today's lessons and exercises with time to spare, 
+spend the rest of your day exploring the following additional content:</em>
+  </p>
+  <h3>Regular Expressions</h3>
+  <p>
+    <strong>Regular Expressions</strong> are search strings used to locate and manipulate content that matches a particular pattern. <br>
+
+    Here is an example of a variable set to a regular expression:
+  </p>
+  <pre>    <code class="javascript hljs"><span class="hljs-keyword">var</span> sample_regex = <span class="hljs-regexp">/moringaschool/gi</span></code>
+  </pre>
+  <p>
+    The characters between the / slashes represent the regular expression. The characters following the regular expression, <code>gi</code>, are modifiers. The g stands for <em>"global"</em> and the i stands for <em>case insensitive</em>. <br>
+    Let's try it out:
+  </p>
+  <ul>
+    <li>Go to <a href="https://regex101.com/" target="_blank">Regular Expressions 101</a>.</li>
+    <li>In the Test String area, add this string: This is a big ol' long
+ string with the word, Moringa, in it. We'll also add school, School, 
+SCHooL and SchOOL just for searching fun.</li>
+    <li>In the Regular Expression fields, add "Moringaschool" between the slashes / MoringaSchool /.</li>
+    <li>Notice that all lowercase <code>MoringaSchool</code> appears in blue in the Test String area. This indicates a match with the pattern of the regular expression.</li>
+    <li>Try adding the i modifier. What happens?</li>
+    <li>Try adding the g modifier now. What happens?</li>
+  </ul>
+  <p>
+    To learn all of the characters used when creating regular expressions, visit the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" target="_blank">MDN documentation</a> or just experiment on the Regex101 site paying attention the explanation area for what is happening.
+
+    To use regular expressions to find and replace text that matches patterns, try using the built-in JavaScript method, <code>.replace()</code>`. Here's an example from MDN that you can try in JSFiddle:
+  </p>
+  <pre>    <code class="javascript hljs">
+      <span class="hljs-keyword">var</span> str = <span class="hljs-string">'Twas the night before Xmas...'</span>;
+      <span class="hljs-keyword">var</span> newstr = str.replace(<span class="hljs-regexp">/xmas/i</span>, <span class="hljs-string">'Christmas'</span>);
+      alert(newstr);
+    </code>
+  </pre>
+  <p>
+    To practice how regular expressions create patterns, see how far you can get in the <a href="https://regexcrossword.com/" target="_blank">Regex Crossword</a>.
+  </p>
+</section>
+</div>
+    </div>
+    <script src="MPFT_files/jquery.js"></script>
+    <script src="MPFT_files/bootstrap.js"></script>
+    <script src="MPFT_files/lib.js"></script>
+    <script src="MPFT_files/sweetalert.js"></script>
+    <script src="MPFT_files/feedback.js"></script>
+    <script>
+    var completed
+
+    function load(e) {
+        completed = JSON.parse(localStorage.getItem('completed')) || []
+        $('#content').load(location.hash.substring(1) || localStorage.getItem('last_visited') || '01.html', function() {
+            $('.popup').each(function(i, el) {
+                $(el).magnificPopup({
+                    type: $(el).attr('href').substring(0, 2) === '//' ? 'iframe' : 'ajax'
+                })
+            })
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block)
+            })
+            $('code-submission-form').each(function() {
+                var content = completed.indexOf($(this).attr('id')) > -1 ? '<p>Code submitted... Thank you!</p>' :
+                    "<form class='student_code'><h4>Submit Your Code</h4><textarea name=code id=code_sample rows=10></textarea><br><input type=submit value=Send></form>"
+                $(this).html(content)
+            })
+            localStorage.setItem('last_visited', location.hash.substring(1))
+            localStorage.getItem('name') && $('#name_form').text(localStorage.getItem('name'))
+        })
+    }
+
+    function add_name(e) {
+        e.preventDefault()
+        var name = $(this).find('#name').val()
+        localStorage.setItem('name', name)
+        $(this).text(name)
+    }
+
+    function loadEvent(event) {
+        var dest = $(this).attr("href")
+        event.preventDefault()
+        history.pushState(null, event.target.textContent, event.target.href)
+        load()
+    }
+
+    function showHint(event) {
+        $(event.target).hide().parent().find('secret').fadeIn(2000)
+    }
+
+    function submit_code(e) {
+        e.preventDefault()
+        var exercise_name = $(this).parent('code-submission-form').attr('id')
+        $.post('submission', $(this).serialize() + '&exercise=' + exercise_name + '&name=' + localStorage.getItem('name'))
+        completed.push(exercise_name)
+        localStorage.setItem('completed', JSON.stringify(completed))
+        $(this).html('<p>Code submitted... Thank you!</p>')
+    }
+    $('body').on('click', '.load', loadEvent)
+        .on('click', 'hint text', showHint)
+        .on('submit', '.student_code', submit_code)
+        .on('submit', '#name_form', add_name)
+    $(window).on('popstate', load)
+    </script>
+
+
+
+</body></html>
