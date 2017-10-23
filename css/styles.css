@@ -65,6 +65,8 @@ h4{
 }
 body{
   background-image: url();(images/h.pg)
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h4{
   font-size: 24;
