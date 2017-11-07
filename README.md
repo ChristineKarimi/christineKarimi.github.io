@@ -1,4 +1,4 @@
-#My Portfolio
+# My Portfolio
 
 #### This my Portfolio that i've built using softwares such as Bootstrap to give a brief description about myself.
 
@@ -11,7 +11,7 @@ This Portfolio gives an overview of myself in a nutshell. It briefly describes m
 
 ## Setup/Installation Requirements
 
-* Use the git clone method to download it to your local machine.
+* Clone the repo and open the index.html file using Google Chrome.
 
 
 ## Technologies Used
