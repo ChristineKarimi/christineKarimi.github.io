@@ -1,82 +1,149 @@
+*{
+  font-family: 'Dosis', sans-serif;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #f1f1fa;
+}
 
-ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #333;
+ /* navbar */
+ .navbar-brand{
+   font-size: 40px;
+ }
+ .navbar-nav li a {
+  font-size: 1.5em;
+ }
+/* navbar */
+.banner {
+    width: 100%;
+    background-image: url(http://w3design4u.com/wp-content/uploads/2017/01/slider-background.jpg);
+    height: 405px;
+    background-color: #deb312;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
   }
 
-  li, .nav-bar {
-     float: left;
+  .banner_section{
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding-top: 5%;
   }
 
-  li a {
-     display: block;
-     color: white;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-  }
-
-  li a:hover:not(.active) {
-     background-color: #111;
-  }
-
-  h2{
+  .banner_title{
     text-align: center;
-    font-size: 24
+    font-size: 55px;
+    color: #fff;
+    font-weight: 800;
   }
-header h1 {
-  display: inline;
-  color: white;
-}
-footer {
-  color: white;
-}
+  .banner_description{
+    font-size: 20px;
+    color: #fff;
+    /* font-weight: ; */
+  }
 
 
-.btn-group {
+.card{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+  .pad{
+    padding: 6%;
+    margin: 2%;
+    background: #383838;
+    text-align: center;
+    border-radius: 6px;
+    position: 0;
+    right: 0;
+    left: 0;
+    color: #FFF;
+    z-index: 1030;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+
+.pad:hover{
+  padding: 6%;
+  margin: 2%;
+  /* background: #978585; */
+  text-align: center;
+  border-radius: 6px;
+  position: 0;
+  right: 0;
+  left: 0;
+  color: #FFF;
+  z-index: 1030;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.project_desc{
+  font-size: 18px;
+  color: #FFF;
+  /* font-weight: ; */
+}
+.timeline{
+  color: #333;
+}
+.timeline ul li {
+  list-style-type: none;
   position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: rgba(202, 127, 127, 0.8);
 }
 
-img{
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
 
-  width: 500px;
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #ce5858;
 }
-body {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-.text {
-  text-align: center;
-}
-h1{
-text-align: center;
-}
-h3{
-  text-align: center;
-}
-h4{
-  text-align: center;
-}
-.btn-group{
-  text-align: center;
-}
-body{
-  background-image: url();(images/h.pg);
-  background-repeat: no-repeat;
-  background-size: cover;
 
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
 }
-h4{
-  font-size: 24;
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
 }
-h5{
-  text-align: center;
-  font-size: 30;
-  text-decoration: underline;
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
 }
-table{
-  width: auto;
+
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
 }
