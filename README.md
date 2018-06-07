@@ -1,31 +1,34 @@
-# My Portfolio
+# Welcome To My Portfolio
 
-#### This my Portfolio that i've built using softwares such as Bootstrap to give a brief description about myself.
+I am Peter Kariuki , My Friends Call me Karis , You can. I am a polygot Software Developer,
+ An expert in php and Javascript :-D.
 
-#### By Christine Karimi
+### To Break the Cocktail of languages I use to write Huge Software products.
 
-
-## Description
-
-This Portfolio gives an overview of myself in a nutshell. It briefly describes my academic life and why i chose programming.
-
-## Setup/Installation Requirements
-
-* Clone the repo and open the index.html file using Google Chrome.
-
-
-## Technologies Used
-
-Bootstrap
-Atom
-html
-## Support and contact details
-
-For more information,contact:
-telephone: +254 716 491 250
-Email: karimichristine@ymail.com
+- Javascript
+- Jquery
+- Vue js
+- Php 
+- Laravel
+- Mysqli
+- Sql
+- Bootstrap
+- HTML5 CSS
 
 
+### I also Have Interests In the Following Languages
+
+- Python Specifically Django Framework
+- Java And Spring Framework
+- Hybrid Programming
+- Android Development
+- Angular Js
+- React Js
 
 
-Copyright (c) {year} Christine karimi
+### Reach Me on this Number +254712169695 or Email : peterkariukimutuura@gmail.com
+
+
+
+
+
