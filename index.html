@@ -1,242 +1,444 @@
 <!DOCTYPE html>
-<html class="no-js">
-
-<head>
-    <meta charset="utf-8">
+<html>
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Christine Karimi</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91912846-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
+    <meta name="description" content="A motivated, adaptable, and responsible Computing graduate with a strong systems mindset, seeking for software engineering jobs.Exemplary track record of successfully developing projects from the concept design to testing and handover. I have a methodical, customer-focused approach to work and a strong drive to see projects through to completion.">
+      <meta name="keywords" content="christine karimi,Information Technology,">
+    <meta name="author" content="christine karimi">
+    <title>kim</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+
+    .w3-sidebar {
+        width: 120px;
+        background: rgb(81, 99, 106);
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+    #main {
+        margin-left: 120px
+    }
+
+    /* Remove margins from "page content" on small screens */
+
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
         }
-        gtag('js', new Date());
-        gtag('config', 'UA-91912846-1');
-    </script>
+    }
 
-</head>
+</style>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">Christine Karimi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="falfa-2x se" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<body class="w3">
+    <style>
+        .w3{
+            background: rgb(81, 99, 106);
+        }
+        </style>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto  navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">My Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Me</a>
-                </li>
-            </ul>
-        </div>
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <br>
+        <img src="images/kim.png" style="width:100%";>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+        <a href="#Project" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+    <i class="fa fa-briefcase w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+    <i class="fa fa-phone w3-xxlarge"></i>
+    <p>CONTACTS</p>
+  </a>
     </nav>
-    <section class="banner">
-        <div class="banner_section text-center">
-            <p class="banner_title">Hello, I am Christine Karimi.</p>
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <p class="banner_description">Based in Nairobi, Kenya. Specializing in Web applications development, Front end development and Typescript.
-                        <br> View my some of my work and feel free to get in touch with me here.</p>
-                </div>
-            </div>
-            <a class="btn btn-info btn-lg" href="#contact">Contact Me</a>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#Project" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
         </div>
-    </section>
-    <div class="container">
-        <!-- ABOUT ME SECTION -->
-        <div class="pad " id="about">
-            <div class="text-center">
-                <h2 class="display-4">About me:</h2>
-                <hr>
-                <img src="images/index.png" alt="" class="img-thumbnail">
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        
+        <div class="w3-container w3-padding-32 w3-center w3" id="home">
+            <style>
+                .w3-container {
+                    background: rgb(98, 151, 147);
+                    background-image: url(./images/ck.jpg);
+                    background-size: 150px;
+                    width: 1130px;
+                    height: 580px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }                
+            </style>
+            <br><br><br><br><br>
+            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Christine Karimi</h1>
+            
+            <h4> A Fullstack Software and Web Developer....</h4>
+    
             </div>
-            <p class="banner_description">
-                I grew up being fascinated by computers and always aspired to work in a Technology related field.
-                <br> At Moringa School, I engaged in a curriculum that equipped me with advanced programming skills in python.
-                <br>
+        
+        <!-- About Section -->
+        <div class="w3-content w3-justify  w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">Kim</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p class="text">
+                welcome to my Personal Web Portfolio,Here You will understand my professional skills in the field of computer science and software programming.
             </p>
-        </div>
-        <div class="text-center">
+
+            <h2 class="w3-text-light-grey">About Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>
+               Am christine and this is what i do...........
+            </p>
+
+
+           <p>  When am not coding....</p>
+
+
+
+            <h3 class="w3-padding-16 w3-text-light-grey">My Computer Programming Skills & Languages</h3>
+            <p class="w3-wide">HTML/CSS</p>
+            <div class="w3-white">
+                <div class="w3-blue" style="height:28px;width:90%"></div>
+            </div>
+           
+            <p class="w3-wide">Bootstrap Framework</p>
+            <div class="w3-white">
+                <div class="w3-blue" style="height:28px;width:100%"></div>
+            </div><br>
+           
+            <p class="w3-wide">Javascript</p>
+            <div class="w3-white">
+                <div class="w3-blue" style="height:28px;width:90%"></div>
+            </div><br>
+            <p class="w3-wide">Jquery</p>
+            <div class="w3-white">
+                <div class="w3-blue" style="height:28px;width:90%"></div>
+            </div><br>
+            <p class="w3-wide">Ajax/p>
+                <div class="w3-white">
+                    <div class="w3-blue" style="height:28px;width:90%"></div>
+                </div><br>
+
+
+                <p class="w3-wide">Git</p>
+                <div class="w3-white">
+                    <div class="w3-blue" style="height:28px;width:90%"></div>
+                </div><br>
+                <p class="w3-wide">Responsive Web Design</p>
+                <div class="w3-white">
+                    <div class="w3-blue" style="height:28px;width:100%"></div>
+                </div><br>
+                <p class="w3-wide">TypeScript</p>
+                <div class="w3-white">
+                    <div class="w3-blue" style="height:28px;width:90%"></div>
+                </div><br>
+                <p class="w3-wide">Django and Flask</p>
+                <div class="w3-white">
+                    <div class="w3-blue" style="height:28px;width:90%"></div>
+                </div><br>
+                <p class="w3-wide">Python</p>
+                <div class="w3-white">
+                    <div class="w3-blue" style="height:28px;width:90%"></div>
+                </div><br>
+                <p class="w3-wide">Linux</p>
+                <div class="w3-white">
+                    <div class="w3-blue" style="height:28px;width:40%"></div>
+                </div><br>
+
+
+
+
+                <!-- <div class="w3-padding-64 w3-content" id="Project">
+
+                    <h2 class="w3-text-light-grey">List of Projects </h2>
+
+                    <section>
+                        <strong>1.Instagram Clone</strong>
+                        <p>
+                            some text
+					</a>
+                        </p>
+
+                    </section>
+                    <section>
+                        <strong>2.Unsplash</strong>
+                        <p>
+                            some text
+                        </p>
+
+                    </section>
+                    <section>
+                        <strong>3.News API</strong>
+                        <p>
+                            Some text.....
+                        </p>
+
+                    </section>
+                    <strong>4.View my github repositories...</strong>
+                    <p>
+                    
+                        <a href="https://github.com/christinekarimi"> My Github Repos.</a>
+                    </p>
+                    <p>
+                        <strong>5.Some of the works I have in my Github Account </strong><br><br>
+                        
+					</a><br><br>
+                        <a href="https://christinekarimi.github.io/">
+						<i class="fa fa-fire" aria-hidden="true"></i> &nbsp&nbsp
+						Simple Ping Pong Game
+					</a><br><br>
+                        <a href="https://christinekarimi.github.io/">
+						<i class="fa fa-thumbs-o-up" aria-hidden="true"></i> &nbsp&nbsp 
+						Simple Dice Game
+					</a><br><br>
+                        <a href="https://christinekarimi.github.io/">
+						<i class="fa fa-fire" aria-hidden="true"></i> &nbsp&nbsp
+						Simple Resturant Website
+					</a><br><br>
+                        
+
+                    </p>
+
+                    </section>
+                </div>
+
+                <! Contact Section -->
+                <!-- <div class="w3-padding-64 w3-content" id="contact">
+                    <h2 class="w3-text-light-grey">Contact Me</h2>
+                    <hr style="width:200px" class="w3-opacity">
+
+                    
+                    <p id="personalcontact">
+                        
+                        <a href="https://github.com/christinekarimi">
+				<i class="fa fa-github" aria-hidden="true"></i> 
+			Github</a> &nbsp&nbsp Email <b class="text-info">
+			<i class="fa fa-envelope-o" aria-hidden="true"></i>
+ karimikim3@gmail.com</b> &nbsp&nbsp&nbsp
+
+                    </p>
+                    <p>
+                        Call me :
+                        <b> +254716491250</b> 
+                    </p>
+
+                </div><br><br><br>
+                <hr> -->
+                
+    <div class="section">       
+    <div class="text-center">
             <h4 class="display-4">
                 My Projects:
             </h4>
             <hr>
         </div>
-        <div class="row">
+         <div class="row">
             <div class="">
                 <div class="card-deck">
-                    <!-- PROJECT STARTS HERE -->
-                    <div class="col-md-6">
-                        <div class="card bg-dark border-primary text-white mb-5 lead text-center">
-                            <img class="card-img-top" src="images/11.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="card-title">News API</h2>
-                                <hr>
-                                <p class="">This is a news website
-                                    <span class="badge badge-success">#python & flask</span> that uses an API to display new from various sources.</p>
+  <!-- PROJECT STARTS HERE -->
+  <div class="col-md-6">
+    <div class="card bg-dark border-primary text-white mb-5 lead text-center">
+        <img class="card-img-top" src="images/11.png" alt="Card image cap">
+        <div class="card-body">
+            <h2 class="card-title">News API</h2>
+            <hr>
+            <p class="">This is a news website
+                <span class="badge badge-success">#python & flask</span> that uses an API to display new from various sources.</p>
 
-                                <div class="row text-center">
-                                    <div class="col col-xs-6 col-md-6 col-lg-6">
-                                        <a class="btn btn-info" target="_blank" href="https://teenews.herokuapp.com/">view project</a>
-                                    </div>
-                                    <div class="col col-xs-6 col-md-6 col-lg-6">
-                                        <a class="btn btn-info" target="_blank" href="https://github.com/ChristineKarimi/T-news">view code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- PROJECT STARTS HERE -->
-                    <div class="col-md-6">
-                        <div class="card bg-dark border-primary text-white mb-5 lead text-center">
-                            <img class="card-img-top" src="images/kim.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="card-title">Epitome</h2>
-                                <hr>
-                                <p class="">This is a personal gallery
-                                    <span class="badge badge-success">Python & Django</span> web application where I can display my photos for others to see.</p>
-
-                                <div class="row text-center">
-                                    <div class="col col-xs-6 col-md-6 col-lg-6">
-                                        <a class="btn btn-info" target="_blank" href=" https://the-epitome.herokuapp.com/">view project</a>
-                                    </div>
-                                    <div class="col col-xs-6 col-md-6 col-lg-6">
-                                        <a class="btn btn-info" target="_blank" href="https://github.com/ChristineKarimi/Epitome">view code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- PROJECT STARTS HERE -->
-                    <div class="col-md-6">
-                        <div class="card bg-dark border-primary text-white mb-5 lead text-center">
-                            <img class="card-img-top" src="images/0.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="card-title">Instagram Clone</h2>
-                                <hr>
-                                <p class="">A clone of the popular web application instagram
-                                        <span class="badge badge-success">Python & Django.</p>
-                                <div class="row text-center">
-                                    <div class="col col-xs-6 col-md-6 col-lg-6">
-                                        <a class="btn btn-info" href="/" target="_blank">view project</a>
-                                    </div>
-                                    <div class="col col-xs-6 col-md-6 col-lg-6">
-                                        <div>
-                                            <a class="btn btn-info" target="_blank"  href="https://christinekk.github.io/Hey-insta/" target="_blank">view Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- PROJECT STARTS HERE -->
-                    <div class="col-md-6">
-                        <div class="card bg-dark border-primary text-white mb-5 lead text-center">
-                            <img class="card-img-top" src="images/c.jpeg" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="card-title">Travelapp</h2>
-                                <hr>
-                                <p class="">
-                                    <span class="badge badge-success">#Django</span> coming soon!.</p>
-
-
-                                <div class="row">
-                                    <div class="col col-xs-6 col-md-6 col-lg-6">
-                                        <a class="btn btn-info" target="_blank" href="" target="_blank">view project</a>
-                                    </div>
-                                    <div class="col col-xs-6 col-md-6 col-lg-6">
-                                        <div>
-                                            <a class="btn btn-info" target="_blank" href="" target="_blank"> view code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- PROJECT STARTS HERE -->
+            <div class="row text-center">
+                <div class="col col-xs-6 col-md-6 col-lg-6">
+                    <a class="btn btn-info" target="_blank" href="https://teenews.herokuapp.com/">view project</a>
                 </div>
-                <!-- card-deck ends here -->
-            </div>
-        </div>
-
-
-
-
-        <div class="" id="portfolio">
-
-        </div>
-
-        <section class="contact pad" id="contact">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="text-center">
-                        <h1 class="display-3">Contact me</h1>
-                    </div>
-                    <form method="POST" action="https://formspree.io/karimichristine@ymail.com">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">Email privacy guaranteed!.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Enter message</label>
-                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message here"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg">send</button>
-                    </form>
-                </div>
-                <div class="col-md-4">
-                    <div class="">
-                        <h1 class="">My contacts</h1>
-                        <hr>
-                    </div>
-                    <p class="lead">
-                        <i class="fa fa-2x fa-phone" aria-hidden="true"></i>: +254 716 49 12 50</p>
-                    <p class="lead">
-                        <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>: karimikim3@gmail.com</p>
-                    <p class="lead">
-                        <i class="fa fa-2x fa-github-alt" aria-hidden="true"></i>:
-                        <a target="_blank" href="https://github.com/christineKarimi">Github Profile</a>
-                    </p>
-                    <p class="lead">
-                        <i class="fa fa-2x fa-slack" aria-hidden="true"></i>:
-                        <a target="_blank" href="https://moringaschool.slack.com/messages/D7G4TNS0N/team/U7F5YTN8K/"> Slack Profile</a>
-                    </p>
-                    </p>
-
-                    <p class="lead">
-                        <i class="fa fa-2x fa-facebook" aria-hidden="true"></i>:
-                        <a target="_blank" href="https://www.facebook.com/kristine.karimi3">Facebook Profile</a>
-                    </p>
-                    </p>
+                <div class="col col-xs-6 col-md-6 col-lg-6">
+                    <a class="btn btn-info" target="_blank" href="https://github.com/ChristineKarimi/T-news">view code</a>
                 </div>
             </div>
-        </section>
-
+        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
+</div>
+<!-- PROJECT STARTS HERE -->
+<div class="col-md-6">
+    <div class="card bg-dark border-primary text-white mb-5 lead text-center">
+        <img class="card-img-top" src="images/m.png" alt="Card image cap">
+        <div class="card-body">
+            <h2 class="card-title">Epitome</h2>
+            <hr>
+            <p class="">This is a personal gallery
+                <span class="badge badge-success">Python & Django</span> web application where I can display my photos for others to see.</p>
+
+            <div class="row text-center">
+                <div class="col col-xs-6 col-md-6 col-lg-6">
+                    <a class="btn btn-info" target="_blank" href=" https://the-epitome.herokuapp.com/">view project</a>
+                </div>
+                <div class="col col-xs-6 col-md-6 col-lg-6">
+                    <a class="btn btn-info" target="_blank" href="https://github.com/ChristineKarimi/Epitome">view code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PROJECT STARTS HERE -->
+<div class="col-md-6">
+    <div class="card bg-dark border-primary text-white mb-5 lead text-center">
+        <img class="card-img-top" src="images/0.png" alt="Card image cap">
+        <div class="card-body">
+            <h2 class="card-title">Instagram Clone</h2>
+            <hr>
+            <p class="">A clone of the popular web application instagram
+                    <span class="badge badge-success">Python & Django.</p>
+            <div class="row text-center">
+                <div class="col col-xs-6 col-md-6 col-lg-6">
+                    <a class="btn btn-info" href="/" target="_blank">view project</a>
+                </div>
+                <div class="col col-xs-6 col-md-6 col-lg-6">
+                    <div>
+                        <a class="btn btn-info" target="_blank"  href="https://christinekk.github.io/Hey-insta/" target="_blank">view Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PROJECT STARTS HERE -->
+<div class="col-md-6">
+    <div class="card bg-dark border-primary text-white mb-5 lead text-center">
+        <img class="card-img-top" src="images/c.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h2 class="card-title">Travelapp</h2>
+            <hr>
+            <p class="">
+                <span class="badge badge-success">#Django</span> coming soon!.</p>
+
+
+            <div class="row">
+                <div class="col col-xs-6 col-md-6 col-lg-6">
+                    <a class="btn btn-info" target="_blank" href="" target="_blank">view project</a>
+                </div>
+                <div class="col col-xs-6 col-md-6 col-lg-6">
+                    <div>
+                        <a class="btn btn-info" target="_blank" href="" target="_blank"> view code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PROJECT STARTS HERE -->
+</div>
+<!-- card-deck ends here -->
+</div>
+</div>
+
+
+
+
+
+<div class="" id="portfolio">
+
+</div>
+</div>
+
+
+<section class="contact pad" id="contact">
+<div class="row">
+<div class="col-md-8">
+<div class="text-center">
+    <h1 class="display-3">Contact me</h1>
+</div>
+<form method="POST" action="https://formspree.io/karimichristine@ymail.com">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Email privacy guaranteed!.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Enter message</label>
+        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message here"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary btn-lg">send</button>
+</form>
+</div>
+<div class="col-md-4">
+<div class="">
+    <h1 class="">My contacts</h1>
+    <hr>
+</div>
+<p class="lead">
+    <i class="fa fa-2x fa-phone" aria-hidden="true"></i>: +254 716 49 12 50</p>
+<p class="lead">
+    <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>: karimikim3@gmail.com</p>
+<p class="lead">
+    <i class="fa fa-2x fa-github-alt" aria-hidden="true"></i>:
+    <a target="_blank" href="https://github.com/christineKarimi">Github Profile</a>
+</p>
+<p class="lead">
+    <i class="fa fa-2x fa-slack" aria-hidden="true"></i>:
+    <a target="_blank" href="https://moringaschool.slack.com/messages/D7G4TNS0N/team/U7F5YTN8K/"> Slack Profile</a>
+</p>
+</p>
+
+<p class="lead">
+    <i class="fa fa-2x fa-facebook" aria-hidden="true"></i>:
+    <a target="_blank" href="https://www.facebook.com/kristine.karimi3">Facebook Profile</a>
+</p>
+</p>
+</div>
+</div>
+</section>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+crossorigin="anonymous"></script>
+
+
+
+
+
 </body>
 
 </html>
