@@ -1,4 +1,5 @@
 
+
 h {
 	font-size: 30px;
 	font-weight: bold;
@@ -19,7 +20,9 @@ h {
 h4 , h1 { 
 	color: rgb(158, 241, 230);
 }
-
+.w3-container{
+	background-image: url(./images/1.jpg)
+}
 
 *{
 	font-family: 'Dosis', sans-serif;
