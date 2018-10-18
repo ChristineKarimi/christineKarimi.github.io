@@ -1,322 +1,559 @@
 <!DOCTYPE html>
-<html>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>christine's portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Upcoming software developer">
-      <meta name="keywords" content="christine karimi,Information Technology,">
-    <meta name="author" content="christine karimi">
-    <title>kim</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-    crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/styles.css">
-<style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Montserrat", sans-serif
-    }
-    .w3-row-padding img {
-        margin-bottom: 12px
-    }
-    /* Set the width of the sidebar to 120px */
-    .w3-sidebar {
-        width: 120px;
-        background: rgb(81, 99, 106);
-    }
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-    #main {
-        margin-left: 120px
-    }
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {
-        #main {
-            margin-left: 0
-        }
-    }
-</style>
 
-<body class="w3">
-    <style>
-        .w3{
-            background: rgb(81, 99, 106);
-        }
-        </style>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-    <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-        <!-- Avatar image in top left corner -->
-        <br>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <br><br>
-        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <br><br>
-        <a href="#Project" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
-    <i class="fa fa-briefcase w3-xxlarge"></i>
-    <p>PROJECTS</p>
-  </a>
-  <br><br>
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
-    <i class="fa fa-phone w3-xxlarge"></i>
-    <p>CONTACTS</p>
-    
-    <br><br><br>
+    <!-- favicons
+    ================================================== -->
+    <!-- <link rel="icon" href="favicon.ico" type=""> -->
 
-    <p class="lead">
-        
-        <a target="_blank" href="https://github.com/christineKarimi"><i class="fa fa-github" aria-hidden="true"></i></a>
-    
-        <a target="_blank" href="https://www.linkedin.com/in/christine-karimi-568719157/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+</head>
 
-        
-    </p>
-    
- 
-    </nav>
+<body id="top">
 
-    <!-- Navbar on small screens (Hidden on medium and large screens) -->
-    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-            <a href="#Project" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
-            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-        </div>
-    </div>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-    <!-- Page Content -->
-    <div class="w3-padding-large" id="main">
-        <!-- Header/Home -->
-        
-        <div class="w3-container w3-padding-32 w3-center w3" id="home">
-            <style>
-                .w3-container  {
-                    background: rgb(98, 151, 147);
-                    background-image: url(./images/ck.jpg);
-                    max-width: 100%;
-                    /* background-size: 100% 100%; */
-                    background-size: 100%;
-                    width: 100%;
-                    height: 600px;
-                    background-repeat: no-repeat;
-                }                
-            </style>
-            <br><br><br><br><br>
-            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Christine Karimi</h1>
-            
-            <h4> A Fullstack Software and Web Developer.</h4>
-            <h4>Based in Nairobi,Kenya</h4>
-    
-            </div>
-        
-        <!-- About Section -->
-        <!-- <div class="w3-content w3-justify  w3-padding-64" id="about">
-            <h4 class="display-4">
-                Programming Skills & Languages:
-            </h4>
-            <hr>
-            <h>Front-end:</h>
-            <br/><br>
-            <img src="images/22.jpg" style="width:10%"; height:7%; >
-            
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <p style="font-style:italic; font-weight: bold;">CK</p>
+            </a>
+        </div> <!-- end header-logo -->
 
-            <img src="images/111.png" style="width:10%"; height:8%; margin-left:3px;>
+        <nav class="header-nav">
 
-            <img src="images/444.png" style="width:10%"; height:10%; margin-left:1px;>
-            
-            
-            <img src="images/32.png" style="width:10%"; height:10%; margin-left:1px;>
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
-            <img src="images/11.svg" style="width:10%"; height:10%;margin-left:1px;>
-            
-            <br><br><br><br>
-            <h>Back-end:</h>
-            <br><br>
-            <img src="images/d.svg" style="width:10%"; height:3%; margin-left:1%;>
-            
-               <img src="images/12.png" style="width:10%"; height:7%;>
-            
-              
-               <img src="images/a.png" style="width:10%"; height:5%;>
-            
-        
-            <div class="w3-padding-64 w3-content" id="Project">
+            <div class="header-nav__content">
+                <h3>Christine karimi</h3>
                 
-<br> -->
-
-<div class="w3-content w3-justify  w3-padding-64" id="about">
-            
-
-        <div class="w3-content w3-justify  w3-padding-6" id="about">
-        <h4 class="display-4">
-            About Me
-        </h4>
-            <hr style="width:200px" class="w3-opacity">
-            
-            <p>I enjoy studying more in my free time as well as applying my knowledge to real life applications and i love art. 
-                My interest in programming developed on realizing the complexity of applications that one can build with the least of resources. 
-                <br> I've used Typescript for various application dvelopment. I'm well Conversant with Python web frameworks such as Flask and Django.
-                <br> I've used both Flask and Django Frameworks to Create a simple CRUD web application to enable people learn about events/gigs happening around them.<br>
-                <br>When am not coding,i enjoy playing puzzle,swimming and listening to music. <br>
-            </p>
-            
-        <div class="w3-content w3-justify  w3-padding-64" id="about">
-
-         
-            <h4 class="display-4">
-                    Programming Skills & Languages:
-                </h4>
-   
-            <hr style="width:900px" class="w3-opacity">
-            <p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS </li>
-                    <li> Javascript</li>
-                    <li> python</li>
-                    <li>Django</li>
-                    <li>
-                        Flask
-                    </li>
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About Me</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
+                <p>Get in touch and let's make something great together.</p>
+                <br><br>
+    
+                <ul class="contact-social">
+                        <li>
+                            <a href="https://www.facebook.com/kristine.karimi3"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/christine-karimi-568719157/"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/karimi_kim/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ChristineKarimi"><i class="fab fa-github"></i></a>
+                        </li>
+                     </ul> <!-- end contact-social -->
 
-            </p>
+            </div> <!-- end header-nav__content -->
+
+        </nav> <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
 
 
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
 
-            <div class="w3-padding-64 w3-content" id="Project">
+        <div class="shadow-overlay"></div>
 
-                    <h4 class="display-4">Projects </h4>
-                    
-<section>
-    <div class="text-center">
-            
-            <hr>
-        </div>
-         <div class="row">
-            <div class="">
-                <div class="card-deck">
-  <!-- PROJECT STARTS HERE -->
+        <div class="home-content">
 
-<!-- PROJECT STARTS HERE -->
-<div class="col-md-6">
-    <div class="card bg-dark border-primary text-white mb-5 lead text-center">
-        <img class="card-img-top" src="images/m.png" alt="Card image cap">
-        <div class="card-body">
-            <h2 class="card-title">Epitome</h2>
-            <hr>
-            <p class="">This is a personal gallery
-                <span class="badge badge-success">Python & Django</span> web application where I can display my photos for others to see.</p>
-            <div class="row text-center">
-                <div class="col col-xs-6 col-md-6 col-lg-6">
-                    <a class="btn btn-info" target="_blank" href=" https://the-epitome.herokuapp.com/">view project</a>
-                </div>
-                <div class="col col-xs-6 col-md-6 col-lg-6">
-                    <a class="btn btn-info" target="_blank" href="https://github.com/ChristineKarimi/Epitome">view code</a>
-                </div>
+            <div class="row home-content__main">
+                <h1>
+                Welcome, I'm <br>
+                Christine Karimi.
+                </h1>
+
+                <p>
+                I am <span class="pink" style="color:hotpink; font-weight: bolder; text-decoration: underline;">PASSIONATE</span> about creating unique digital experiences
+                that will help your business stand out.
+                </p>
+            </div> <!-- end home-content__main -->
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-sidelinks">
+            <li><a class="smoothscroll" href="#about">About Me<span>who Am I</span></a></li>
+            <li><a class="smoothscroll" href="#services">Services<span>what I do</span></a></li>
+            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
+        </ul> <!-- end home-sidelinks -->
+
+        <ul class="home-social">
+            <li class="home-social-title">Let's Talk</li>
+            <li><a href="https://www.facebook.com/kristine.karimi3">
+                <i class="fab fa-facebook"></i>
+                <span class="home-social-text">Facebook</span>
+            </a></li>
+            <li><a href="https://github.com/ChristineKarimi">
+                <i class="fab fa-github"></i>
+                <span class="home-social-text">Github</span>
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/christine-karimi-568719157/">
+                <i class="fab fa-linkedin"></i>
+                <span class="home-social-text">LinkedIn</span>
+            </a></li>
+        </ul> <!-- end home-social -->
+
+        <a href="#about" class="home-scroll smoothscroll">
+            <span class="home-scroll__text">Scroll Down</span>
+            <span class="home-scroll__icon"></span>
+        </a> <!-- end home-scroll -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Who Am I</h3>
+                <h1 class="display-1">Am a front-end developer passionate about creating beautiful UI designs.</h1>
             </div>
-        </div>
-    </div>
-</div>
-<!-- PROJECT STARTS HERE -->
-<div class="col-md-6">
-    <div class="card bg-dark border-primary text-white mb-5 lead text-center">
-        <img class="card-img-top" src="images/0.png" alt="Card image cap">
-        <div class="card-body">
-            <h2 class="card-title">Instagram Clone</h2>
-            <hr>
-            <p class="">A clone of the popular web application instagram
-                    <span class="badge badge-success">Python & Django.</p>
-            <div class="row text-center">
-                <div class="col col-xs-6 col-md-6 col-lg-6">
-                    <a class="btn btn-info" href="http://hey-insta.herokuapp.com/" target="_blank">view project</a>
-                </div>
-                <div class="col col-xs-6 col-md-6 col-lg-6">
-                    <div>
-                        <a class="btn btn-info" target="_blank"  href="https://christinekk.github.io/Hey-insta/" target="_blank">view Code</a>
+        </div> <!-- end section-header -->
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                    A dedicated and enthusiastic junior developer with extensive interest in Software Development. Excellent interpersonal skills and the ability to communicate at all levels. Enjoys part of being in a successful team and thrives in challenging working conditions.
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row">
+                
+            <div class="about-process process block-1-2 block-tab-full">
+
+                <div class="process__vline-left"></div>
+                <div class="process__vline-right"></div>
+
+                <div class="col-block process__col" data-item="1" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Define</h4>
+
+                        <p>
+                           I understand the importance of meeting and listening to you, the clients; your needs and wants. It is through this that I am able to develop good end products, that serve the purpose.
+                        </p>
                     </div>
                 </div>
+                <div class="col-block process__col" data-item="2" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Design & design</h4>
+
+                        <p>
+                            From sketching, to taking photos, to consulting and gathering supportive resources, I ensure that I have done thorough research and develop the first concepts.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="3" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Build & Ammend</h4>
+
+                        <p>
+                            I understand that the first concept isn’t always the right one/or may need tweaking; either way, I accept criticism and use it to rework or modify the initial concepts
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="4" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Launch</h4>
+
+                        <p>
+                            I enjoy watching a project come to life and I aM sure you do to! 
+                        </p>
+                    </div>
+                </div>
+
+            </div> <!-- end process -->
+
+        </div> <!-- end about-stats -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services light-gray">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">What I Do</h3>
+                <h1 class="display-1">I take great pride in designing, developing and delivering unique UI designs..</h1>
             </div>
+        </div> <!-- end section-header -->
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                    I combine strategy, design and technology to optimize value for end users using the following technologies:
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block service-item " data-aos="fade-up">
+                <div class="service-icon">
+                    <img src="images/photoswipe/css-512.png" alt="" style="max-width: 70%;">
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">HTML/CSS/SASS</h3>
+                   </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                        <img src="images/photoswipe/11.jpeg" alt=""> 
+                    </div>
+                <div class="service-text">
+                    <h3 class="h4">Reactjs/Angular</h3>
+                   </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <img src="images/photoswipe/w.png" alt="">
+                </div>  
+                <div class="service-text">
+                    <h3 class="h4">Wordpress</h3>
+                   </div>
+            </div>
+            <p style="text-decoration:underline;">Am also interested in the following back-end technologies:</p>
+            
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <img src="images/photoswipe/f.png" alt="">
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Flask</h3>
+                    </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <img src="images/photoswipe/d.ico" alt="" style="max-width:55%;">
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Django</h3>
+                    </div>
+            </div>
+
+            <!-- <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon service-icon--mobile-dev">
+                    <i class="icon-lego-block"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Postgresql</h3>
+                        </p>
+                </div>
+            </div> -->
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-works">
+                
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Featured Works</h3>
+                <h1 class="display-1">My recent design projects:</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Instagram
+                            </h3>
+                            <p class="item-folio__cat">
+                                Django
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/ChristineKarimi/Hey-insta" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Salad" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                    Photo gallery
+                            </h3>
+                            <p class="item-folio__cat">
+                                Django
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/ChristineKarimi/Epitome" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick 
+
+                <!-- <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                NewHighlight
+                            </h3>
+                            <p class="item-folio__cat">
+                                Flask
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div> end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" title="Liberty" data-size="1050x700">
+                                <img src="images/portfolio/liberty.jpg"
+                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Github Search
+                            </h3>
+                            <p class="item-folio__cat">
+                                Angular
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/ChristineKarimi/Githubsearch/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Fuji" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                NewsHighlight
+                            </h3>
+                            <p class="item-folio__cat">
+                                Flask
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/ChristineKarimi/T-news" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+
+            </div> <!-- end masonry -->
+        </div> <!-- end masonry-wrap -->
+
+    </section> <!-- end s-works -->
+
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--light">Contact Me</h3>
+                <h1 class="display-1 display-1--light">Get in touch and let's make something great together.</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row">
+
+            <div class="col-full contact-main" data-aos="fade-up">
+                <p>
+                <a href="mailto:#0" class="contact-email">karimikim3@gmail.com</a>
+                <span class="contact-number">0716 491 250 / 0747 491 250 </span>
+                </p>
+            </div> <!-- end contact-main -->
+
+        </div> <!-- end row -->
+
+        <div class="row">
+
+            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                <h3 class="subhead subhead--light">Where To Find Me</h3>
+
+                <p class="contact-address">
+                    Moringa School<br>
+                    Ngong Lane Plaza, Nairobi<br>
+                </p>
+            </div> <!-- end contact-secondary -->
+
+            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                <h3 class="subhead subhead--light">Let's Talk</h3>
+
+                <ul class="contact-social">
+                    <li>
+                        <a href="https://www.facebook.com/kristine.karimi3"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/christine-karimi-568719157/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/karimi_kim/"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ChristineKarimi"><i class="fab fa-github"></i></a>
+                    </li>
+                 </ul> <!-- end contact-social -->
+
+                <div class="contact-subscribe">
+                    <form id="mc-form" class="group mc-form" novalidate="true">
+                        <input type="email" value="" name="karimikim3@gmail.com" class="email" id="mc-email" placeholder="Type Message" required="">
+                        <input type="submit" name="subscribe" value="Send">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
+                </div> <!-- end contact-subscribe -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end row -->
+
+        <!-- <div class="row">
+            <div class="col-full cl-copyright">
+                <span>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            </div>
+        </div> -->
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">            
         </div>
     </div>
-</div>
-<!-- PROJECT STARTS HERE -->
 
-<!-- PROJECT STARTS HERE -->
-</div>
-<!-- card-deck ends here -->
-</div>
-</div>
-</div>
-<div class="" id="portfolio">
-</div>
-</div>
-</section>
-<section class="contact pad" id="contact">
-<div class="row">
-<div class="col-md-8">
-<div class="text-center">
-    <h1 class="display-3">Contact me</h1>
-</div>
-<form method="POST" action="https://karimichristine@ymail.com">
-    <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">Email privacy guaranteed!.</small>
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">Enter message</label>
-        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message here"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary btn-lg">send</button>
-</form>
-</div>
-<div class="col-md-4">
-<div class="">
-    <h1 class="">My contacts</h1>
-    <hr>
-</div>
-<p class="lead">
-    <i class="fa fa-2x fa-phone" aria-hidden="true"></i>: +254 716 49 12 50</p>
-<p class="lead">
-    <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>: karimikim3@gmail.com</p>
-<p class="lead">
-    <i class="fa fa-2x fa-github-alt" aria-hidden="true"></i>:
-    <a target="_blank" href="https://github.com/christineKarimi">Github Profile</a>
-</p>
-<p class="lead">
-    <i class="fa fa-2x fa-slack" aria-hidden="true"></i>:
-    <a target="_blank" href="https://moringaschool.slack.com/messages/D7G4TNS0N/team/U7F5YTN8K/"> Slack</a>
-</p>
-</p>
 
-</p>
-</div>
-</div>
-</section>
-</section>
-</div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-crossorigin="anonymous"></script>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
